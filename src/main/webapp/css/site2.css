@@ -1,0 +1,128 @@
+
+.log-wrapper{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+}
+
+.log-link{
+	grid-column: 1;
+	gride-row: 2;
+	padding-left: 50%;
+}
+.log-item{
+	grid-column: 2;
+    grid-row: 1;
+    }
+    
+.date-item{
+padding-left: 20%;
+}
+
+.meal-item1{
+	grid-column: 1;
+	grid-row: 3;
+	padding-left: 20%;
+}
+
+.meal-item2{
+	grid-column: 1;
+	grid-row: 4;
+	padding-left: 20%;
+}
+
+.meal-item3{
+	grid-column: 1;
+	grid-row: 5;
+	padding-left: 20%;
+}
+
+.meal-item4{
+	grid-column: 1;
+	grid-row: 6;
+	padding-left: 20%;
+}
+
+.meal-item5{
+	grid-column: 1;
+	grid-row: 7;
+	padding-left: 20%;
+}
+
+.meal-item6{
+	grid-column: 1;
+	grid-row: 8;
+	padding-left: 20%;
+}
+
+.pie-item{
+    grid-column: 2 / span 2;
+    grid-row: second-line / 5;
+    padding-left: 26%;
+    padding-top: 20%;
+}
+.graph-heading{
+	text-align: center;
+	font-size: 2em;
+	padding-left: 2%;
+	padding-bottom: 5%
+}
+
+.graph{
+	
+    padding: 5%;
+    border-style: double;
+    border-width: thick;
+}
+
+.pie-graph{
+	padding: 7%;
+	padding-left: 19%;
+	padding-top: 2%;
+}
+
+.hide{
+	display: none;
+}
+
+
+.create-log{
+	text-align: center;
+	padding-bottom: 10%;
+	}
+
+.rt-border{
+	text-align: center;
+	border-right: solid;
+}
+
+.pad-top{
+	padding-top: 5%;
+}
+
+.create-log-ft{
+	font-size: 2em;
+}
+
+.head-about{
+	font-size: 2em;
+	text-align: left;
+}
+.font-back{
+	margin-top: 8%;
+	background-color: #26101052;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.list-font{
+	font-size: 1.2em;
+}
+.indent{
+	padding-left: 22%;
+}
+.larger{
+	font-size: 1.3em !important;
+}
